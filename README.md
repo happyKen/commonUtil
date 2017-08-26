@@ -10,8 +10,8 @@
 # 内容说明
  工具 | 描述
  ---  | ---
- [LogUtils](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AnimationUtils.java)| 日志工具类
- [AppUtils](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AppUtils.java)| APP相关信息工具类
+ [LogUtils](https://github.com/happyKen/commonUtil/MyUtil/app/src/main/java/com/common/myutil/utils/LogUtils.java)| 日志工具类
+ [DensityUtils](https://github.com/happyKen/commonUtil/MyUtil/app/src/main/java/com/common/myutil/utils/DensityUtils.java)| dp工具类
  
 
 
