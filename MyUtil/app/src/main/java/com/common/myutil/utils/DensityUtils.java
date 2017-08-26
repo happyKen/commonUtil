@@ -5,7 +5,7 @@ import android.view.View;
 
 /**
  * dp转px
- * Created by wangzekeng on 2017/6/23.
+ * Created by wangzekeng on 2017/8/26.
  */
 
 public class DensityUtils {
