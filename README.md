@@ -13,6 +13,8 @@
  ---  | ---
  [LogUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/LogUtils.java)| 日志工具类
  [DensityUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/DensityUtils.java)| dp工具类
+ [FNFlowLayout](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/widget/FNFlowLayout.java)| 流式布局
+ [SoundPoolPlayer](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/SoundPoolPlayer.java)| 音频播放
  
 
 
