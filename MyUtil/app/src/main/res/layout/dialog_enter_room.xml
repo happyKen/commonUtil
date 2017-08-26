@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_dialog_title"
+            android:gravity="center"
+            android:text="请输入房间号"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dialog_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp">
+
+            <EditText
+                android:id="@+id/dlg_enter_room_edit"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edit"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:hint="请输入房间ID"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColorHint="#aaaaaa"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/dlg_enter_room_btn_sure"
+                android:layout_width="95dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/btn_orange"
+                android:text="确定"
+                android:textColor="#fab44a"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

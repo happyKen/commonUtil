@@ -1,4 +1,4 @@
-package com.common.myutil.util;
+package com.common.myutil.utils;
 
 import android.content.Context;
 import android.view.View;
@@ -8,7 +8,7 @@ import android.view.View;
  * Created by wangzekeng on 2017/6/23.
  */
 
-public class DensityUtil {
+public class DensityUtils {
     public static int dp2px(Context context, float dp) {
         final float scale = context.getResources().getDisplayMetrics().density;
         return (int) (dp * scale + 0.5f);
