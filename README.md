@@ -1,21 +1,16 @@
 
 -------------
-#这个是我自己收集整理的一些常用的工具类
-##有好的工具类，欢迎提交PR
-### 作者微博: [@海淀区小鬼风尘](http://weibo.com/2675061813/profile?topnav=1&wvr=6)
-###  QQ群欢迎大家加入：391513287
+# android常用的工具类
 
-
+## 日常工作收集整理的工具类，方便以后使用
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Maven Central](https://img.shields.io/bintray/v/gcssloop/maven/sutil.svg)](https://bintray.com/gcssloop/maven/sutil/view)
 
-##增加常用库的README_LIB
-[常用库](https://github.com/l123456789jy/Lazy/blob/master/USER_LIB_README.md)
 
 # 内容说明
  工具 | 描述
  ---  | ---
- [AnimationUtils](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AnimationUtils.java)| 动画工具类
+ [LogUtils](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AnimationUtils.java)| 日志工具类
  [AppUtils](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AppUtils.java)| APP相关信息工具类
  [AssetDatabaseOpenHelper](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/AssetDatabaseOpenHelper.java)| 目录资源获取
  [Base64](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/Base64.java)| 加密
@@ -92,13 +87,11 @@
 [MediaPlayerUtiles](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/util/MediaPlayerUtiles.java)|播放资源目录下音频文件
 [Repair7PopupWindow](https://github.com/l123456789jy/Lazy/blob/master/lazylibrary/src/main/java/com/github/lazylibrary/view/Repair7PopupWindow.java)|修复7.0上popwindow位置显示错误
 
-##依赖
-          compile 'com.github.lazylibrary:lazylibrary:1.0.2'
 
 
 ## License
 
-    Copyright 2015 lazy
+    Copyright 2015 happyKen
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
