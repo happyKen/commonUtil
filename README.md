@@ -19,8 +19,8 @@
   [DateUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/DateUtils.java)| 日期类
   [DeviceUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/DeviceUtils.java)| 手机设备信息类
   [EnCodeUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/EnCodeUtils.java)| 编码类
-  [NetworkUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NetworkUtils.java)| 网络类
-  [NumberUitls](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NumberUitls.java)| 数字类
+ [NetworkUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NetworkUtils.java)| 网络类
+ [NumberUitls](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NumberUitls.java)| 数字类
 
 
 ## License
