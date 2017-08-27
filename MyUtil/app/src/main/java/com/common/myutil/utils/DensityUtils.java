@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.View;
 
 /**
- * dp转px
+ * 测量单位转换类
  * Created by wangzekeng on 2017/8/26.
  */
 

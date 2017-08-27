@@ -7,6 +7,7 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
 /**
+ * 手机设备信息类
  * Created by wangzekeng on 2017/8/27.
  */
 

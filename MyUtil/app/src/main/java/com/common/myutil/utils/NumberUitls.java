@@ -3,6 +3,7 @@ package com.common.myutil.utils;
 import java.text.DecimalFormat;
 
 /**
+ * 数字类
  * Created by wangzekeng on 2017/6/21.
  */
 

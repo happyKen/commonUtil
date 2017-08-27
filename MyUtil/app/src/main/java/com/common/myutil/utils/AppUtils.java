@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
+ * app相关类
  * Created by wangzekeng on 2017/8/27.
  */
 

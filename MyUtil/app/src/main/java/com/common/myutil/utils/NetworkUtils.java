@@ -7,6 +7,7 @@ import android.net.NetworkInfo;
 import static android.content.Context.CONNECTIVITY_SERVICE;
 
 /**
+ * 网络类
  * Created by wangzekeng on 2017/8/27.
  */
 

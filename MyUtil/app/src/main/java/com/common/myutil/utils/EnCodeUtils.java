@@ -8,6 +8,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
+ * 编码类
  * Created by wangzekeng on 2017/8/27.
  */
 
