@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setLayoutAnimation(getListAnim());
         articleAdapter = new articleListAdapter(this,R.layout.article_item,data);
         listView.setAdapter(articleAdapter);
+        
     }
     public void initData(){
         ArticleList articleList = new ArticleList();
