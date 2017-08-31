@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/g_white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp">
+            <TextView
+                android:id="@+id/tv_speak_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textColor="#575757"
+                android:textSize="18sp"
+                android:layout_alignParentTop="true"/>
+            <TextView
+                android:id="@+id/tv_speak_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_centerVertical="true"
+                android:maxLines="1"
+                android:text="内容"
+                android:textColor="#bbbbbb"
+                />
+            <ImageView
+                android:id="@+id/img_speak_beginStudy"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:background="@drawable/beginstudy"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp">
+            <TextView
+                android:id="@+id/tv_speak_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="13sp"
+                android:paddingRight="5dp"
+                android:layout_alignParentRight="true"
+                android:textColor="#6f6f6f"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

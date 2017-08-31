@@ -4,7 +4,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by wuguohui on 2017/3/7.
+ * sharePreferences封装类
+ * Created by wangzekeng on 2017/3/7.
  */
 
 public abstract class BaseSharePreferences {

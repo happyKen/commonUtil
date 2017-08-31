@@ -3,6 +3,7 @@ package com.common.myutil;
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
+import android.widget.Toast;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,5 +23,9 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.common.myutil", appContext.getPackageName());
+    }
+    @Test
+    public void testToast(){
+        Toast toast = Toast.makeText(InstrumentationRegistry.getTargetContext(),"hhhhh",Toast.LENGTH_LONG);
     }
 }
