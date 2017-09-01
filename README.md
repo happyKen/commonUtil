@@ -21,6 +21,7 @@
   [EnCodeUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/EnCodeUtils.java)| 编码类
  [NetworkUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NetworkUtils.java)| 网络类
  [NumberUitls](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NumberUitls.java)| 数字类
+ [quickadpter](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/quickadpter)| 万能适配器
 
 
 ## License
