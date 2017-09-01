@@ -11,16 +11,16 @@
 # 内容说明
  工具 | 描述
  ---  | ---
- [LogUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/LogUtils.java)| 日志工具类
- [DensityUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/DensityUtils.java)| dp工具类
- [FNFlowLayout](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/widget/FNFlowLayout.java)| 流式布局
- [SoundPoolPlayer](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/SoundPoolPlayer.java)| 音频播放
-  [AppUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/AppUtils.java)| app相关类
-  [DateUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/DateUtils.java)| 日期类
-  [DeviceUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/DeviceUtils.java)| 手机设备信息类
-  [EnCodeUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/EnCodeUtils.java)| 编码类
- [NetworkUtils](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NetworkUtils.java)| 网络类
- [NumberUitls](https://github.com/happyKen/commonUtil/blob/master/MyUtil/app/src/main/java/com/common/myutil/utils/NumberUitls.java)| 数字类
+ [LogUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/LogUtils.java)| 日志工具类
+ [DensityUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/DensityUtils.java)| dp工具类
+ [FNFlowLayout](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/widget/FNFlowLayout.java)| 流式布局
+ [SoundPoolPlayer](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/SoundPoolPlayer.java)| 音频播放
+  [AppUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/AppUtils.java)| app相关类
+  [DateUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/DateUtils.java)| 日期类
+  [DeviceUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/DeviceUtils.java)| 手机设备信息类
+  [EnCodeUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/EnCodeUtils.java)| 编码类
+ [NetworkUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/NetworkUtils.java)| 网络类
+ [NumberUitls](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/NumberUitls.java)| 数字类
  [quickadpter](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/quickadapter)| 万能适配器
 
 
