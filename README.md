@@ -39,7 +39,7 @@
 ### 内容说明
  名称 | 描述
   ---  | ---
-   [KMP](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/LogUtils.java)| KMP实现
+   [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
   
 ## License
 
