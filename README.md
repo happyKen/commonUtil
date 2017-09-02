@@ -34,14 +34,12 @@
 
 ## java篇
 
-### 环境：eclispse开发
-### 内容：常用算法，数据结构，爬虫等实现方式
+### java实现的常用算法，数据结构，爬虫等实现方式
+
 ### 内容说明
  名称 | 描述
   ---  | ---
    [KMP](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/LogUtils.java)| KMP实现
-  
-  
   
 ## License
 
