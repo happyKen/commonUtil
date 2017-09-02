@@ -10,7 +10,7 @@
 [![Maven Central](https://img.shields.io/bintray/v/gcssloop/maven/sutil.svg)](https://bintray.com/gcssloop/maven/sutil/view)
 
 
-# 内容说明
+### 内容说明
  工具 | 描述
  ---  | ---
  [LogUtils](https://github.com/happyKen/commonUtil/tree/master/MyUtil/app/src/main/java/com/common/myutil/utils/LogUtils.java)| 日志工具类
@@ -32,8 +32,15 @@
 
 ----
 
-# java篇
+## java篇
 
+### java实现的常用算法，数据结构，爬虫等实现方式
+
+### 内容说明
+ 名称 | 描述
+  ---  | ---
+   [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
+  
 ## License
 
     Copyright 2017 happyKen 
