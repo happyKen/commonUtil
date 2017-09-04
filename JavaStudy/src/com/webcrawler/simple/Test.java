@@ -17,7 +17,7 @@ public class Test {
 	          .get();
 	         
 	        //得到html的所有东西
-	        Element content = doc.getElementById("content");
+	        Element content = doc.getElementById("body");
 	        //分离出html下<a>...</a>之间的所有东西
 	        Elements links = content.getElementsByTag("a");
 	        //Elements links = doc.select("a[href]");
@@ -39,6 +39,6 @@ public class Test {
 }
 	 
 	 public static void main(String[] args) {
-		Get_Url("http://www.cnblogs.com/TTyb/p/5784581.html");
+		Get_Url("http://news.baidu.com/");
 	}
 }

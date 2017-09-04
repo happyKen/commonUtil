@@ -1,18 +1,16 @@
 package com.common.myutil;
 
 import java.util.List;
-
-
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-public class articleListAdapter extends ArrayAdapter<ArticleList> {
-	public articleListAdapter(Context context, int resource, List<ArticleList> objects) {
+public class articleListAdapter extends ArrayAdapter<ActivityList> {
+	public articleListAdapter(Context context, int resource, List<ActivityList> objects) {
 		super(context, resource, objects);
 		// TODO Auto-generated constructor stub
 
@@ -23,7 +21,7 @@ public class articleListAdapter extends ArrayAdapter<ArticleList> {
 		//return super.getView(position, convertView, parent);
 		
 
-		final ArticleList articleList = getItem(position);
+		final ActivityList activityList = getItem(position);
 		View view;
 		ViewHolder viewHolder;
 		if(convertView==null){
@@ -31,23 +29,26 @@ public class articleListAdapter extends ArrayAdapter<ArticleList> {
 		 viewHolder = new ViewHolder();
 		 viewHolder.juziTitle =(TextView) view.findViewById(R.id.tv_speak_title);
 		 viewHolder.juziContent =(TextView) view.findViewById(R.id.tv_speak_content);
-		 viewHolder.juziTime = (TextView) view.findViewById(R.id.tv_speak_time);
-		 viewHolder.movieBeginStudy = (ImageView) view.findViewById(R.id.img_speak_beginStudy);
 		 view.setTag(viewHolder);
 		}else {
 			view = convertView;
 			viewHolder = (ViewHolder) view.getTag();
 		}
-		viewHolder.juziTitle.setText(articleList.getTitle());
-		viewHolder.juziContent.setText(articleList.getContent());
-		viewHolder.juziTime.setText(articleList.getTime());
+		viewHolder.juziTitle.setText(activityList.getTitle());
+		viewHolder.juziContent.setText(activityList.getContent());
+		view.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(getContext(),activityList.getActivityClass());
+				getContext().startActivity(intent);
+			}
+		});
 		return view;
 		
 	}
 class ViewHolder{
 	TextView juziContent;
 	TextView juziTitle;
-	TextView juziTime;
-	ImageView movieBeginStudy;
 }
+
 }
