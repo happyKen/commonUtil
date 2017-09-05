@@ -40,13 +40,13 @@
  名称 | 描述
   ---  | ---
    [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
-   [BubbleSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 冒泡排序
-   [ChoiceSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 选择排序
-   [QuickSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 快速排序
-   [InsertSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 插入排序
-   [MergeSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 归并排序
-   [HeapSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 堆排序
-   [ShellSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 希尔排序
+   [BubbleSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/KMP.java)| 冒泡排序
+   [ChoiceSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/KMP.java)| 选择排序
+   [QuickSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/KMP.java)| 快速排序
+   [InsertSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/KMP.java)| 插入排序
+   [MergeSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/KMP.java)| 归并排序
+   [HeapSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/KMP.java)| 堆排序
+   [ShellSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/KMP.java)| 希尔排序
 ## License
 
     Copyright 2017 happyKen 
