@@ -40,6 +40,7 @@
  名称 | 描述
   ---  | ---
    [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
+   [ArrayUtils](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ArrayUtils.java)| 数组工具
    [BubbleSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/BubbleSort.java)| 冒泡排序
    [ChoiceSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ChoiceSort.java)| 选择排序
    [QuickSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/QuickSort.java)| 快速排序
