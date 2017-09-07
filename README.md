@@ -36,10 +36,9 @@
 
 ### java实现的常用算法，数据结构，爬虫等实现方式
 
-### 内容说明
+### 排序
  名称 | 描述
   ---  | ---
-   [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
    [ArrayUtils](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ArrayUtils.java)| 数组工具
    [BubbleSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/BubbleSort.java)| 冒泡排序
    [ChoiceSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ChoiceSort.java)| 选择排序
@@ -48,6 +47,13 @@
    [MergeSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/MergeSort.java)| 归并排序
    [HeapSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/HeapSort.java)| 堆排序
    [ShellSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ShellSort.java)| 希尔排序
+  
+ ----
+ 
+### 算法
+ 名称 | 描述
+  ---  | ---
+ [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
 ## License
 
     Copyright 2017 happyKen 
