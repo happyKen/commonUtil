@@ -58,7 +58,10 @@
  [Fibonacci](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/Fibonacci.java)| 斐波纳契数列第N项
  [FindKthToTail](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/FindKthToTail.java)| 链表倒数第k个结点
  [FindPath](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/FindPath.java)| 二叉树找值
- 
+ [HasSubtree](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/HasSubtree.java)| 二叉树子树
+ [JumpFloor](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/JumpFloor.java)| 台阶问题
+ [JumpFloorII](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/JumpFloorII.java)| 台阶问题二
+ [MergeList](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MergeList.java)| 链表合并
  
 ## License
 
