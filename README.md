@@ -56,7 +56,8 @@
  [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
  [BFS](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/BFS.java)| 广度优先搜索算法
  [Fibonacci](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/Fibonacci.java)| 斐波纳契数列第N项
- 
+ [FindKthToTail](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/FindKthToTail.java)| 链表倒数第k个结点
+ [FindPath](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/FindPath.java)| 二叉树找值
  
  
 ## License
