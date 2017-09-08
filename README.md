@@ -36,11 +36,34 @@
 
 ### java实现的常用算法，数据结构，爬虫等实现方式
 
-### 内容说明
+### 排序
  名称 | 描述
   ---  | ---
-   [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
+   [ArrayUtils](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ArrayUtils.java)| 数组工具
+   [BubbleSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/BubbleSort.java)| 冒泡排序
+   [ChoiceSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ChoiceSort.java)| 选择排序
+   [QuickSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/QuickSort.java)| 快速排序
+   [InsertSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/InsertSort.java)| 插入排序
+   [MergeSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/MergeSort.java)| 归并排序
+   [HeapSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/HeapSort.java)| 堆排序
+   [ShellSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ShellSort.java)| 希尔排序
   
+ ----
+ 
+### 算法
+ 名称 | 描述
+  ---  | ---
+ [KMP](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| KMP算法
+ [BFS](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/BFS.java)| 广度优先搜索算法
+ [Fibonacci](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/Fibonacci.java)| 斐波纳契数列第N项
+ [FindKthToTail](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/FindKthToTail.java)| 链表倒数第k个结点
+ [FindPath](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/FindPath.java)| 二叉树找值
+ [HasSubtree](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/HasSubtree.java)| 二叉树子树
+ [JumpFloor](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/JumpFloor.java)| 台阶问题
+ [JumpFloorII](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/JumpFloorII.java)| 台阶问题二
+ [MergeList](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MergeList.java)| 链表合并
+ [MinNumberInRotateArray](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MinNumberInRotateArray.java)| 数组旋转
+ [MirrorTree](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MirrorTree.java)| 二叉树镜像
 ## License
 
     Copyright 2017 happyKen 
