@@ -64,6 +64,18 @@
  [MergeList](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MergeList.java)| 链表合并
  [MinNumberInRotateArray](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MinNumberInRotateArray.java)| 数组旋转
  [MirrorTree](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MirrorTree.java)| 二叉树镜像
+ 
+ 
+ 
+ ### 设计模式
+ 名称 | 描述
+  ---  | ---
+ [SigleTon](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 单例模式
+ [straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/BFS.java)| 策略模式
+ 
+ 
+ 
+ 
 ## License
 
     Copyright 2017 happyKen 
