@@ -34,7 +34,7 @@
 
 ## java篇
 
-### java实现的常用算法，数据结构，爬虫等实现方式
+java实现的常用算法，数据结构，爬虫等实现方式
 
 
 ### 泛型和反射
@@ -42,6 +42,7 @@
   ---  | ---
  [generic](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ArrayUtils.java)| 泛型使用
  [reflect](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/BubbleSort.java)| 反射使用
+
 
 ### 排序
  名称 | 描述
@@ -55,7 +56,6 @@
    [HeapSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/HeapSort.java)| 堆排序
    [ShellSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ShellSort.java)| 希尔排序
   
- ----
  
 ### 算法
  名称 | 描述
@@ -72,8 +72,7 @@
  [MinNumberInRotateArray](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MinNumberInRotateArray.java)| 数组旋转
  [MirrorTree](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MirrorTree.java)| 二叉树镜像
  
- 
- ----
+
  
  ### 设计模式
  名称 | 描述
