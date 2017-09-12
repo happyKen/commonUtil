@@ -1,4 +1,4 @@
-package com.designPattern.proxy;
+package com.java.reflect;
 /**
  * 代理接口 subject 客户端可见的类
 * @ClassName: UserManager 
@@ -8,6 +8,7 @@ package com.designPattern.proxy;
 *
  */
 public interface UserManager {
+	
 	public void addUser(int uid,String name);
 	
 	public void delUser(int uid);

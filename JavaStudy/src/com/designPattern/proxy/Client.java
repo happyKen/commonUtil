@@ -15,7 +15,6 @@ public class Client {
 		
 		
 		//动态代理
-		new ProxyManager().newProxyInstance(UserManagerImpl.class).addUser(1, "wangze");
-	//	userManager.addUser(1, "wangze");
+		//new ProxyManager().newProxyInstance(new UserManagerImpl()).addUser(1, "wangze");
 	}
 }
