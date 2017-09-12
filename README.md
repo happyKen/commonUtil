@@ -86,7 +86,5 @@ java实现的常用算法，数据结构，爬虫等实现方式
  
 ## License
 
-    Copyright 2017 happyKen
-    
     no fuck license
 
