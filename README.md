@@ -77,10 +77,10 @@ java实现的常用算法，数据结构，爬虫等实现方式
  ### 设计模式
  名称 | 描述
   ---  | ---
- [SigleTon](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 单例模式
- [straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/BFS.java)| 策略模式
- 
- 
+ [SigleTon](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/sigleTon)| 单例模式
+ [Straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/strategy)| 策略模式
+ [Proxy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proxy)| 代理模式
+ [Proto](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proto)| 原型模式
  
  
 ## License
