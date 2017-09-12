@@ -4,7 +4,8 @@
 
 ## android篇
 
-### 日常工作收集整理的工具类，在此记录，方便以后使用
+ 日常工作收集整理的工具类和一些开发遇到的坑，在此记录，方便以后使用
+ 
 ### 持续更新中
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Maven Central](https://img.shields.io/bintray/v/gcssloop/maven/sutil.svg)](https://bintray.com/gcssloop/maven/sutil/view)
