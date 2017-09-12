@@ -11,7 +11,6 @@ package com.java.generic;
 public class GenericClass {
 
     public static void main(String[] args) {
-
         Box<String> name = new Box<String>("test");
         System.out.println("name:" + name.getData());
     }
@@ -24,6 +23,7 @@ public class GenericClass {
      * K和V分别表示关键字与值的类型。
      * 字母U和S表示“任意类型”。
      */
+    
     static class Box<T> {
 
         private T data;//T设定成员变量类型
