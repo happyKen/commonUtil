@@ -38,13 +38,6 @@
 java实现的常用算法，数据结构，爬虫等实现方式
 
 
-### 泛型和反射
- 名称 | 描述
-  ---  | ---
- [generic](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/generic)| 泛型使用
- [reflect](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/reflect)| 反射使用
-
-
 ### 排序
  名称 | 描述
   ---  | ---
@@ -82,6 +75,14 @@ java实现的常用算法，数据结构，爬虫等实现方式
  [Straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/strategy)| 策略模式
  [Proxy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proxy)| 代理模式
  [Proto](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proto)| 原型模式
+ 
+ 
+ 
+ ### java高级用法
+ 名称 | 描述
+  ---  | ---
+ [generic](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/generic)| 泛型使用
+ [reflect](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/reflect)| 反射使用
  
  
 ## License
