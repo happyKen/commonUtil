@@ -37,7 +37,7 @@
 ### java实现的常用算法，数据结构，爬虫等实现方式
 
 
-## 泛型和反射
+### 泛型和反射
  名称 | 描述
   ---  | ---
  [generic](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ArrayUtils.java)| 泛型使用
