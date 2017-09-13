@@ -4,10 +4,10 @@
 
 ## android篇
 
-### 日常工作收集整理的工具类，在此记录，方便以后使用
+ 日常工作收集整理的工具类和一些开发遇到的坑，在此记录，方便以后使用
+ 
 ### 持续更新中
-[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Maven Central](https://img.shields.io/bintray/v/gcssloop/maven/sutil.svg)](https://bintray.com/gcssloop/maven/sutil/view)
+
 
 
 ### 内容说明
@@ -34,7 +34,8 @@
 
 ## java篇
 
-### java实现的常用算法，数据结构，爬虫等实现方式
+java实现的常用算法，数据结构，爬虫等实现方式
+
 
 ### 排序
  名称 | 描述
@@ -48,7 +49,6 @@
    [HeapSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/HeapSort.java)| 堆排序
    [ShellSort](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/sort/ShellSort.java)| 希尔排序
   
- ----
  
 ### 算法
  名称 | 描述
@@ -64,32 +64,31 @@
  [MergeList](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MergeList.java)| 链表合并
  [MinNumberInRotateArray](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MinNumberInRotateArray.java)| 数组旋转
  [MirrorTree](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MirrorTree.java)| 二叉树镜像
- 
- 
- ----
- 
+ [MyStack](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MyStack.java)| 栈的模拟
+ [NumberOf1](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/NumberOf1.java)| 1的个数
+ [Power](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/Power.java)| 幂运算
+  
+  
  ### 设计模式
  名称 | 描述
   ---  | ---
- [SigleTon](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/KMP/KMP.java)| 单例模式
- [straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/BFS.java)| 策略模式
+ [SigleTon](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/sigleTon)| 单例模式
+ [Straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/strategy)| 策略模式
+ [Proxy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proxy)| 代理模式
+ [Proto](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proto)| 原型模式
+ [JavaObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/javaObserve)| 观察者模式
+ [NativeObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/nativeObserve)| 观察者模式
+ [Builder](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/builder)| 建造者模式
  
- 
- 
+ ### java高级用法
+ 名称 | 描述
+  ---  | ---
+ [Generic](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/generic)| 泛型使用
+ [Reflect](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/reflect)| 反射使用
+ [Enum](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/dataStructure/enum)| 枚举使用
+ [Map](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/dataStructure/enum)| Map使用
  
 ## License
 
-    Copyright 2017 happyKen 
-    
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+    no fuck license
 
