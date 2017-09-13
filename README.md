@@ -74,8 +74,9 @@ java实现的常用算法，数据结构，爬虫等实现方式
  [Straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/strategy)| 策略模式
  [Proxy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proxy)| 代理模式
  [Proto](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proto)| 原型模式
- 
- 
+ [JavaObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/javaObserve)| 观察者模式
+ [NativeObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/nativeObserve)| 观察者模式
+ [Builder](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/builder)| 建造者模式
  
  ### java高级用法
  名称 | 描述
