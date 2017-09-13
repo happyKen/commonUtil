@@ -64,9 +64,11 @@ java实现的常用算法，数据结构，爬虫等实现方式
  [MergeList](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MergeList.java)| 链表合并
  [MinNumberInRotateArray](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MinNumberInRotateArray.java)| 数组旋转
  [MirrorTree](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MirrorTree.java)| 二叉树镜像
- 
-
- 
+ [MyStack](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/MyStack.java)| 栈的模拟
+ [NumberOf1](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/NumberOf1.java)| 1的个数
+ [Power](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/algorithm/niukecoder/Power.java)| 幂运算
+  
+  
  ### 设计模式
  名称 | 描述
   ---  | ---
