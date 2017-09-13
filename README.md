@@ -81,9 +81,10 @@ java实现的常用算法，数据结构，爬虫等实现方式
  ### java高级用法
  名称 | 描述
   ---  | ---
- [generic](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/generic)| 泛型使用
- [reflect](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/reflect)| 反射使用
- 
+ [Generic](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/generic)| 泛型使用
+ [Reflect](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/reflect)| 反射使用
+ [Enum](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/dataStructure/enum)| 枚举使用
+ [Map](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/dataStructure/enum)| Map使用
  
 ## License
 
