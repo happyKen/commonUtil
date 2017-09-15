@@ -76,15 +76,19 @@ java实现的常用算法，数据结构，爬虫等实现方式
  [Straglegy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/strategy)| 策略模式
  [Proxy](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proxy)| 代理模式
  [Proto](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/proto)| 原型模式
- [JavaObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/javaObserve)| 观察者模式
- [NativeObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/nativeObserve)| 观察者模式
- [Builder](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/builder)| 建造者模式
- 
+ [JavaObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/javaObserve)| 观察者模式
+ [NativeObserve](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/nativeObserve)| 观察者模式
+ [Factory](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/factory)| 工厂模式
+ [simpleFactory](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/builder)| 简单工厂模式
+ [abtractFactory](https://github.com/happyKen/commonUtil/blob/master/JavaStudy/src/com/designPattern/builder)| 抽象工厂模式
+  
+  
  ### java高级用法
  名称 | 描述
   ---  | ---
  [Generic](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/generic)| 泛型使用
  [Reflect](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/reflect)| 反射使用
+ [Inject](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/java/inject)| 注解使用
  [Enum](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/dataStructure/enum)| 枚举使用
  [Map](https://github.com/happyKen/commonUtil/tree/master/JavaStudy/src/com/dataStructure/enum)| Map使用
  
