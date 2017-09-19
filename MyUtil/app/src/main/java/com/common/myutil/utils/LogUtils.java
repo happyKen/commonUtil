@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class LogUtils {
     private static boolean mIsDebug = true;
-    private static String TAG = "wc";
+    private static String TAG = "wangze";
     private static boolean isDetail = true;
     private static boolean isToast = true;
     private static Toast mToast = null;
