@@ -36,6 +36,8 @@ public class DynamicHandler implements InvocationHandler{
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        //被调用的使用才触发，第一个参数既是代理类实例，第二个参数是被调用的方法对象
+        // 第三个方法是调用参数。调用处理器根据这三个参数进行预处理或分派到委托类实例上发射执行
         Object handler = getHandler();
         LogUtils.e("handler invoke");
         if(handler != null) {

@@ -38,8 +38,9 @@ public class ViewInjectUtils {
                            Method getValue = anontationType.getDeclaredMethod("value");
                             int [] viewIds = (int[]) getValue.invoke(annotation,null);
                             DynamicHandler handler = new DynamicHandler(activity);
-                            handler.addMethod(methodName,method);
-                            Object listener = Proxy.newProxyInstance(listenerType.getClassLoader(),new Class<?>[]{listenerType},handler);//相当于注解委托给实际的回调方法
+                            handler.addMethod(methodName,method);//onClick ，对应实际执行方法clickBtnInvoked
+                            //相当于注解委托给实际的回调方法，new Class<?>[]{listenerType}是OnClickListener接口，
+                            Object listener = Proxy.newProxyInstance(listenerType.getClassLoader(),new Class<?>[]{listenerType},handler);
                             for(int viewId : viewIds){
                                 LogUtils.e("id:" + viewId);
                                 View view = activity.findViewById(viewId);
