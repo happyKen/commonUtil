@@ -10,6 +10,7 @@ public class MainClient {
 		
 	}
 	
+	
 	public static void fruitUtils(Class<?> cls){
 
 		Field[] fields = cls.getDeclaredFields();
