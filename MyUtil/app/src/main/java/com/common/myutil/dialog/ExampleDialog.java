@@ -57,4 +57,7 @@ public class ExampleDialog extends BaseDialog implements View.OnClickListener{
     public interface EnterRoomDialogListener {
         public void onComplete(String roomId);
     }
+
+
+
 }

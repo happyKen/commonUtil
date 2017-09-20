@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+    <fragment
+        android:id="@+id/item_list"
+        android:name="com.common.myutil.eventbus.ItemListFragment"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/item_detail_container"
+        android:name="com.common.myutil.eventbus.ItemDetailFragment"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+
+</LinearLayout>
