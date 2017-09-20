@@ -8,6 +8,8 @@ public class Item
 	public String id;
 	public String content;
 
+
+	//测试数据
 	public static List<Item> ITEMS = new ArrayList<Item>();
 	static
 	{
@@ -19,11 +21,12 @@ public class Item
 		addItem(new Item("5", "Item 5"));
 		addItem(new Item("6", "Item 6"));
 	}
-
 	private static void addItem(Item item)
 	{
 		ITEMS.add(item);
 	}
+
+
 
 	public Item(String id, String content)
 	{

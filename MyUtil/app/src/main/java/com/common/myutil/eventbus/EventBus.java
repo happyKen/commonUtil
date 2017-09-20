@@ -14,7 +14,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * 自定义eventbus例子
- * <p>
+ *
  * Created by wangzekeng on 2017/9/20.
  */
 
