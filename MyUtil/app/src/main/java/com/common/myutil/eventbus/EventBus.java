@@ -19,19 +19,41 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 
 public class EventBus {
-    private static EventBus instance = new EventBus();
+    private static volatile EventBus instance ;
     private Handler mHandler;
     private EventBus() {
         mHandler = new Handler(Looper.getMainLooper());
     }
 
+
+    //双重判断，单例
     public static EventBus getInstance() {
+        if(instance == null){
+            synchronized (EventBus.class){
+                if(instance == null){
+                    instance = new EventBus();
+                }
+            }
+        }
         return instance;
     }
 
+    /**
+     * map储存着所有event和对应的方法封装类SubscribeMethod
+     * 一个event可能对应着多个方法
+     *
+     *
+     */
+    private static Map<Class, CopyOnWriteArrayList<SubscribeMethod>> mSubscribeMethodMap = new HashMap<Class, CopyOnWriteArrayList<SubscribeMethod>>();
 
-    private static Map<Class, CopyOnWriteArrayList<SubscribeMethod>> mSubscribeMethodByEventTypes = new HashMap<Class, CopyOnWriteArrayList<SubscribeMethod>>();
 
+    /**
+     *
+     * 遍历注册对象所有方法
+     * 将有event的方法封装存入map
+     *
+     * @param subscriber 注册对象
+     */
     public void register(Object subscriber) {
         CopyOnWriteArrayList<SubscribeMethod> subscribeMethods = null;
         Class subscriberClass = subscriber.getClass();
@@ -49,11 +71,11 @@ public class EventBus {
                 if (parameterTypes.length == 1) {
                     Class<?> event = parameterTypes[0];
                     synchronized (this) {
-                        if (mSubscribeMethodByEventTypes.containsKey(event)) {
-                            subscribeMethods = mSubscribeMethodByEventTypes.get(event);
+                        if (mSubscribeMethodMap.containsKey(event)) {
+                            subscribeMethods = mSubscribeMethodMap.get(event);
                         } else {
                             subscribeMethods = new CopyOnWriteArrayList<SubscribeMethod>();
-                            mSubscribeMethodByEventTypes.put(event, subscribeMethods);
+                            mSubscribeMethodMap.put(event, subscribeMethods);
                         }
 
                         if (threadMode.equals("Async")) {
@@ -77,9 +99,14 @@ public class EventBus {
         public PostingThread get() {
             return new PostingThread();
         }
+
     };
 
-
+    /**
+     * 使用ThreadLocal让多个线程互不干扰
+     * 使用队列是为了缓存单个线程同时有多个event访问，做了个队列缓存
+     * @param eventTypeInstance
+     */
     public void post(Object eventTypeInstance){
         PostingThread postingThread = mPostingThread.get();
         postingThread.isMainThread = Looper.getMainLooper() == Looper.myLooper();
@@ -89,16 +116,24 @@ public class EventBus {
         }
         postingThread.isPosting = true;
         while(!postingThread.mEventQueue.isEmpty()){
-            Object eventType = postingThread.mEventQueue.remove(0);
-            postEvent(eventType, postingThread);
+            Object event = postingThread.mEventQueue.remove(0);
+            postEvent(event, postingThread);
         }
         postingThread.isPosting = false;
     }
 
 
+
+    
+    /**
+     * event对应方法的执行
+     * 遍历map找出需要执行的方法，根据不同线程状态执行方法
+     * @param eventTypeInstance
+     * @param postingThread
+     */
     public void postEvent(final Object eventTypeInstance, PostingThread postingThread){
             Class<?> eventClass = eventTypeInstance.getClass();
-            CopyOnWriteArrayList<SubscribeMethod> subscribeMethods = mSubscribeMethodByEventTypes.get(eventClass);
+            CopyOnWriteArrayList<SubscribeMethod> subscribeMethods = mSubscribeMethodMap.get(eventClass);
             for(final SubscribeMethod subscribeMethod : subscribeMethods){
                 if(subscribeMethod.threadMode == ThreadMode.UI){
                     if(postingThread.isMainThread){
@@ -150,7 +185,7 @@ public class EventBus {
                 Class<?>[] paramterTypes = method.getParameterTypes();
                 if(paramterTypes.length == 1){
                     synchronized (this) {
-                        mSubscribeMethodByEventTypes.remove(paramterTypes[0]);
+                        mSubscribeMethodMap.remove(paramterTypes[0]);
                     }
                 }
             }
@@ -161,15 +196,22 @@ public class EventBus {
 
 }
 
-
+/**
+ * 线程状态
+ */
 enum ThreadMode {
     UI, Async
 }
 
+
+/**
+ * event方法封装
+ *
+ */
 class SubscribeMethod {
-    ThreadMode threadMode;
-    Method method;
-    Object subscriber;
+    ThreadMode threadMode;//线程状态
+    Method method;//方法
+    Object subscriber;//方法调用实例
 
     public SubscribeMethod(ThreadMode threadMode, Method method, Object obj) {
         this.threadMode = threadMode;
@@ -178,6 +220,11 @@ class SubscribeMethod {
     }
 
 }
+
+/**
+ * 线程封装类
+ * 封装了线程的状态，和event队列
+ */
 class PostingThread{
     List<Object> mEventQueue = new ArrayList<Object>();
     boolean isMainThread;
