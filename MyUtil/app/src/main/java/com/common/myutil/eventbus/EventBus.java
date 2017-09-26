@@ -124,7 +124,7 @@ public class EventBus {
 
 
 
-    
+
     /**
      * event对应方法的执行
      * 遍历map找出需要执行的方法，根据不同线程状态执行方法
