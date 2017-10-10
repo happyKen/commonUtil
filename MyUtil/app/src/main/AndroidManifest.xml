@@ -17,6 +17,9 @@
         <activity android:name=".inject.InjectActivity">
         </activity>
         <activity android:name=".eventbus.EventBusActivity">
+
+        </activity>
+        <activity android:name=".view.AnimateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
