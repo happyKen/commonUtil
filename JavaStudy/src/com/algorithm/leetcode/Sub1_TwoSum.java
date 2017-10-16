@@ -16,7 +16,7 @@ import java.util.Map;
 * @date 2017年10月16日 上午11:23:12 
 *
  */
-public class TwoSum {
+public class Sub1_TwoSum {
 	/**
 	 * 暴力方法，时间复杂度为o(n),空间复杂度o(1)
 	 * @param nums
