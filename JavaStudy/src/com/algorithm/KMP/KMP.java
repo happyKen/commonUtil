@@ -13,7 +13,7 @@ package com.algorithm.KMP;
 public class KMP {
 	 public static void main(String[] args){  
 		 String S = "BBC ABCDAB ABCDABCDABDE";//主串
-		 String T = "ABCDAB";//匹配串
+		 String T = "ABCDABD";//匹配串
 	        KMP kmp=new KMP(S, T);  //计算next数组	          
 	        kmp.printNext();  //输出next数组
 	        int theLoc=kmp.getIndexOfStr();  //获得匹配位置	          
@@ -30,7 +30,8 @@ public class KMP {
 	        next=next();
 	    }  
 	    /** 
-	     * 计算next 数组的值。 
+	     * 计算next 数组的值:计算子窜前缀后缀最长公共元素长度(为了方便计算全部减一)
+	     * 前缀必须以第一个字母开头
 	     * next数组的值为对称位的下标（从0开始），没有对称的设置为-1
 	     * next求值核心是：继承
 	     * */  	    
@@ -42,21 +43,23 @@ public class KMP {
 	    		 next[0]=-1;//第一位一定为-1
 	    		 for(int i=1;i<T.length();i++){//从第二位开始起
 	    			 int j = next[i-1];//j的值与当当前位前一位的next有关
-	    			 char T_j = T.charAt(j+1);
+	    			 char T_j = T.charAt(j+1);//j是前一位匹配的，所以要加1
 	    			 char T_m = T.charAt(i);
 	    			/*
-	    			 * 由于当前位的next继承前一位的next，当前一位的next不为-1时，比较当前位与前一位next+1的值，相等则加1
-	    			 * 不相等则在找出更小的对称性
+	    			 * 由于当前位的next继承前一位的next，
+	    			 * 当前一位的next不为-1时，比较当前位与前一位next+1的值，相等则加1
+	    			 * 不相等则在找出更小的对称性：adabac
 	    			 */
 	    			 while(T_j!=T_m&&j>=0){
 	    				j=next[j];
 	    				T_j = T.charAt(j+1);
 	    			 }
+	    			
 	    			 if(T_m == T_j){
-	    				 next[i] = j+1;
+	    				 next[i] = j+1;//相等则长度加1
 	    			 }
 	    			 else{
-	    				 next[i]=-1;
+	    				 next[i]=-1;//找不到是为-1
 	    			 }
 	    		 }
 	    		 return next;
@@ -80,7 +83,7 @@ public class KMP {
 		        char tChar;
 		        /*
 		         * 当主串到达尾部时，判断子串是否到达尾部，到达则求出子串在主串的位置，否为为-1
-		         * 位置：子串第一个字符在主串的位置=主串匹配位-子串长度
+		         * 位置：子串第一个字符在主串的位置=主串匹配位-子串长度+1
 		         */
 		        while(i<S.length() && j<T.length()){
 		        	sChar = S.charAt(i);
@@ -93,10 +96,10 @@ public class KMP {
 		        		if(j==0){
 		        			i++;
 		        		}else{
-		        		j=next[j-1]+1;//跳转到前一位的next加1
+		        		j=next[j-1]+1;//不匹配时，找前面匹配的一位，跳转到前一位的next，然后加1
 		        		}
 		        	}     	
 		        }
-		        return (j==T.length())?(i-j):-1;
+		        return (j==T.length())?(i-j+1):-1;
 	       }		
 }
