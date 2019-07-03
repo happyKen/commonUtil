@@ -10,7 +10,7 @@ package com.algorithm.sort;
 
 public class BubbleSort {
 /*	
-	 *       冒泡排序
+	 * 冒泡排序
 	 * 每趟与后面的数一一比较，比较时交换位置
 	 * 时间复杂度：
 	 * 平均，最好，最坏：0（n^2）

@@ -8,7 +8,7 @@ public class QuickSort {
 	 * 平均，最好：0（nlogn）
 	 * 最差：n^2
 	 * 空间复杂度：0(nlogn)
-	 * 利用递归的思想：设置一个标志位，不断地分为两段排序
+	 * 利用递归的思想：设置一个标志位，把小于这个数归到一边，大于这个数归到另一边。再对两边递归，一直只剩一个元素
 	 * 稳定性：不稳定
 	 */
     public static void main(String arg[]){
@@ -29,7 +29,7 @@ public class QuickSort {
     		sort(array,left,p-1);
     		sort(array,p+1,right);
     	}
-    }
+    } 
 
 	public static int position(int [] array ,int left,int right){
 		int p = array[left];

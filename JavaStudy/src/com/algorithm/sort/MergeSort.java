@@ -36,7 +36,7 @@ public static void merge(int [] array,int left,int middle,int right){
 	int j = middle+1;
 	while(i <=middle && j <=right){//加到坐标位，有等号
 		if(array[i]<=array[j]){		
-			sortArray[k++] = array[i++];
+			sortArray[k++] = array[i++];//为了保持稳定性，有相等的情况，需要优先将左边的放到前面
 		}else{	
 			sortArray[k++] = array[j++];
 		}
